@@ -1,5 +1,5 @@
 # app/controllers/users_controller.rb
-# CONTROLLERS => WHAT CONSTRAINTS WE GIVE THE MENU AND WHAT WE SERVE
+# CONTROLLERS => HOW WE COOK THE MEAL and HOW WE WANT TO SERVE IT
 
 class UsersController < ApplicationController
 
