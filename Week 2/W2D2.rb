@@ -19,6 +19,7 @@ class Cat
     @name = name
     @breed = breed
     @age = age
+    # above are instance variables!
   end
 
   # def age
@@ -49,6 +50,11 @@ class Cat
     # self here is -> instance of the cat
     # puts "#{self.name} says meow ^^" # will only work if we have a getter method for name
     puts "#{@name} says meow ^^" # will always work bc we have access through the initialize method
+
+
+  # puts "My name is #{@name}, meow!"
+  # puts "My name is #{self.name}, meow!" # explicit self
+  # puts "My name is #{name}, meow!" # implicit self
   end
 
   

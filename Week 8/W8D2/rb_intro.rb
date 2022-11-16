@@ -13,4 +13,4 @@ class Array
   end
 end
 
-array.each do |i|
+

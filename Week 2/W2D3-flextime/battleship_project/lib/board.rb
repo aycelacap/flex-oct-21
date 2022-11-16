@@ -1,5 +1,12 @@
 require 'byebug'
 
+# require "./battleship"
+# or 
+# require_relative "battleship" # check the same directory
+
+# puts gives a new line
+
+
 class Board
 
     attr_reader :size
@@ -10,11 +17,15 @@ class Board
     end
 
     def [](pos)
+      #  get the element at the position of grid
         # solve using deconstruction
+
         # @grid[pos[0], pos[1]]
     end
 
     def []=(pos, val)
+      # why do we wanna use @grid instead of self, that attribute 
+      # we're calling the method bracket, in the bracket method which would be recursive so it's important to use the attribute (@grid)instead of self
         #solve using deconstruction
     
     end
